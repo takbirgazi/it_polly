@@ -238,14 +238,15 @@ h3{
     grid-gap: 20px;
     margin-bottom: 15px;
 }
-.ftr_payment{
+.ftr_payment {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     margin-top: 30px;
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
-.ftr_payment .ftr_img{
-    height: 200px;
+.ftr_payment .ftr_img {
+    height: 130px;
+    width: 130px;
 }
 .ftr_payment .ftr_img img{
     border-radius: 5px;
